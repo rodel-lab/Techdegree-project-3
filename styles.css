@@ -1,0 +1,160 @@
+/* ======= Base Styles ====== */
+* {
+background-origin: padding-box;
+margin: 0;
+}
+
+body {
+  color: #222930;
+  margin: auto;
+}
+
+form {
+max-width: 500px;
+margin: auto;
+padding: 40px 80px;
+background: white;
+border-radius: 8px;
+  }
+  
+h1 {
+padding: 15px;
+margin: 0;
+font-size: large;
+font-weight: bold;
+text-align: center;
+background-color: black;
+color: white;
+text-transform: uppercase;
+}
+
+.border-line {
+margin-bottom: 10px;
+
+}
+.intro {
+font-weight:bold;
+text-align: center;
+color: #8a97a0;
+margin-bottom: 30px;
+padding-top: 5px;
+}
+.line-1 {   
+  margin: auto;
+  top: 2px; 
+  border: none; 
+  height: 8px; 
+  background: black; 
+  margin-bottom: 5px; 
+}
+.line-2 { 
+  margin: auto;
+  top: 2px; 
+  border: none; 
+  height: 3px; 
+  background: black; 
+  margin-bottom: 5px; 
+}
+
+h2, h3 {
+font-weight: bolder;
+margin: auto;
+}
+
+h2 {
+margin-top: 5%;
+text-align: center;
+
+}
+h3 {
+padding-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="address"],
+input[type="city"],
+input[type="state"],
+input[type="zip"],
+select { 
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e0e0e0;
+  color: #062c4b;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px; 
+}
+#zipcode {
+  width: 25%;
+  margin-right: 210px;
+}
+input::placeholder {
+  text-align: right;
+}
+textarea {
+background: rgba(255,255,255,0.1);
+  border: none;
+  height: 79px;
+  border-radius: 13px;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e0e0e0;
+  color: #062c4b;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px; 
+}
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #3aa6c1;
+  font-size: 19px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3aa6c1;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 15px 20px 10px;
+}
+   fieldset {
+    margin-bottom: 30px;
+    border: none;
+    width: 100%;
+    margin: auto;
+  }
+  
+   label {
+    width: 50%;
+    padding-top: 15px;
+  } 
+
+
+  /* ===========   MEDIA QUERIES   ========= */
+
+  @media (min-width: 320px)  {
+
+  }    
+  
+  @media (min-width: 768px) {
+    .contact-col {
+      display: flex;      
+    }
+    label {
+      margin-bottom: 20px;
+    }      
+  }
