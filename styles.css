@@ -1,83 +1,83 @@
-/* ======= Base Styles ====== */
+/* ==========   Base Styles   ========== */
+
 * {
-background-origin: padding-box;
-margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   color: #222930;
-  margin: auto;
+  margin: 0;
 }
-
-form {
-max-width: 500px;
-margin: auto;
-padding: 40px 80px;
-background: white;
-border-radius: 8px;
-  }
   
 h1 {
-padding: 15px;
-margin: 0;
-font-size: large;
-font-weight: bold;
-text-align: center;
-background-color: black;
-color: white;
-text-transform: uppercase;
-}
-
-.border-line {
-margin-bottom: 10px;
-
-}
-.intro {
-font-weight:bold;
-text-align: center;
-color: #8a97a0;
-margin-bottom: 30px;
-padding-top: 5px;
-}
-.line-1 {   
-  margin: auto;
-  top: 2px; 
-  border: none; 
-  height: 8px; 
-  background: black; 
-  margin-bottom: 5px; 
-}
-.line-2 { 
-  margin: auto;
-  top: 2px; 
-  border: none; 
-  height: 3px; 
-  background: black; 
-  margin-bottom: 5px; 
+  font-family: 'Poppins', sans-serif;
+  padding: 30px;
+  margin: 0;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
 }
 
 h2, h3 {
-font-weight: bolder;
-margin: auto;
+  font-weight: bolder;
+  margin: auto;
 }
 
 h2 {
-margin-top: 5%;
-text-align: center;
+  margin-top: 5%;
+  text-align: center;
 
 }
 h3 {
-padding-bottom: 30px;
+  padding-bottom: 30px;
+}
+h3 .newsletter {
+  padding-bottom: 5px;
+}
+
+p {
+
+
+}
+
+/* ===========  Layout Styles  =================== */
+
+
+form {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10%;
+  background: white;
+  }
+
+.intro {
+  font-weight:bold;
+  text-align: center;
+  color: #8a97a0;
+  margin-bottom: 70px;
+  padding-top: 12px;
+    
+}
+
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+  width: 100%;
+  margin: 0 auto; 
+     
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-input[type="address"],
 input[type="city"],
-input[type="state"],
-input[type="zip"],
-select { 
+select {   
   background: rgba(255,255,255,0.1);
   border: none;
   font-size: 16px;
@@ -91,19 +91,16 @@ select {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px; 
 }
-#zipcode {
-  width: 25%;
-  margin-right: 210px;
-}
+
 input::placeholder {
   text-align: right;
 }
+
 textarea {
-background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.1);
   border: none;
   height: 79px;
   border-radius: 13px;
-  margin: 0;
   outline: 0;
   padding: 15px;
   width: 100%;
@@ -112,6 +109,7 @@ background: rgba(255,255,255,0.1);
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px; 
 }
+
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
@@ -131,30 +129,35 @@ input[type="radio"],
 input[type="checkbox"] {
   margin: 0 15px 20px 10px;
 }
-   fieldset {
-    margin-bottom: 30px;
-    border: none;
-    width: 100%;
-    margin: auto;
-  }
-  
-   label {
-    width: 50%;
-    padding-top: 15px;
-  } 
+
+footer {
+  text-align:center;
+  font-style: italic;
+  color: #8a97a0;
+  margin: 20px 0px 30px
+}
 
 
   /* ===========   MEDIA QUERIES   ========= */
 
-  @media (min-width: 320px)  {
 
-  }    
-  
+  @media (min-width: 320px) {
+   fieldset {
+     width: 90%;    
+   }
+   label {
+     padding-bottom: 5px;
+  }
+}
+
   @media (min-width: 768px) {
     .contact-col {
-      display: flex;      
-    }
-    label {
-      margin-bottom: 20px;
-    }      
+      display: flex ;      
   }
+  label {
+    width: 30%;
+    padding: 15px 25px;
+    padding-left: 0;
+    text-align: left;
+  }
+} 
