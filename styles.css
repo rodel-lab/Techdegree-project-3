@@ -159,13 +159,19 @@ footer {
    label {
      padding-bottom: 5px;
   }
+  .top-col {
+    margin: 0px 4%;
+  }
+  form{
+    margin:0px 4%;
+  }
 }
 
   @media (min-width: 768px) {
     .contact-col {
-      display: flex ;
-       
+      display: flex ;     
   }
+
   label {
     width: 30%;
     padding: 15px 25px;
