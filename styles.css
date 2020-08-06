@@ -34,7 +34,7 @@ h2 {
   text-align: center;
 
 }
-h3{
+h3 {
   padding-bottom: 30px;
   padding-top: 10px;
 }
@@ -44,19 +44,25 @@ h3{
 
 
 form {
-  width: 100%;
-  margin: 0;
+  /* width: 100%; */
+  /* margin: 0; */
   margin-bottom: 10%;
   background: white;
-  }
+  border-top: solid black;
+  padding-top: 40px;
+  border-width: 2px;
+}
+  
 
 .intro {
-  font-weight:bold;
+  font-weight: bold;
   text-align: center;
   color: #8a97a0;
-  margin-bottom: 70px;
   padding-top: 12px;
-    
+  padding-bottom: 38px;
+  margin-bottom: 3px;
+  border-bottom: solid black;
+  border-width: 5px;
 }
 
 
@@ -157,7 +163,8 @@ footer {
 
   @media (min-width: 768px) {
     .contact-col {
-      display: flex ;      
+      display: flex ;
+       
   }
   label {
     width: 30%;
@@ -166,6 +173,12 @@ footer {
     text-align: left;
   }
   fieldset {
-    width: 65%;
+    width: 100%;
+  }
+  .top-col {
+    margin: 0px 17%;
+  }
+  form{
+    margin:0px 17%;
   }
 } 
