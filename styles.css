@@ -9,6 +9,7 @@
 body {
   color: #222930;
   margin: 0;
+  width: 101%;
  
 }
   
@@ -24,19 +25,17 @@ h1 {
   text-transform: uppercase;
 }
 
-h2, h3 {
-  font-weight: bolder;
-  margin: auto;
-}
-
 h2 {
-  margin-top: 5%;
+  margin-top: 8%;
   text-align: center;
+  font-size: large;
 
 }
-h3 {
+legend{
   padding-bottom: 30px;
   padding-top: 10px;
+  font-weight: bolder;
+  text-align: left;
 }
 
 
@@ -69,10 +68,16 @@ form {
 fieldset {
   margin-bottom: 30px;
   background-color: snow;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   width: 100%;
   margin: 0 auto; 
-     
+  border: none    
+}
+.col-1 {
+border-bottom: solid black;
+margin-bottom: 2%;
+
+
 }
 
 input[type="text"],
@@ -173,7 +178,7 @@ footer {
   }
 
   label {
-    width: 30%;
+    width: 43%;
     padding: 15px 25px;
     padding-left: 0;
     text-align: left;
@@ -187,4 +192,5 @@ footer {
   form{
     margin:0px 17%;
   }
+
 } 
