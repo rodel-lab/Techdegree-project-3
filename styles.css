@@ -129,7 +129,11 @@ textarea {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px; 
 }
+textarea:focus{
+  background-color: whitesmoke;
+  border: solid rgb(156, 127, 102);
 
+}
 .newsletter {
   padding-top: 10px;
 
