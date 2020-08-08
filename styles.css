@@ -87,6 +87,7 @@ input[type="city"],
 select {   
   background: rgba(255,255,255,0.1);
   border: none;
+  border-radius: 5px;
   font-size: 16px;
   height: auto;
   margin: 0;
@@ -99,18 +100,22 @@ select {
   margin-bottom: 30px; 
 }
 input:hover {
-  background-color: lightsteelblue;
+  background-color: wheat;
 }
 
 input:focus {
-  background-color: lightsteelblue;
+  background-color: whitesmoke;
+  border: solid rgb(235, 151, 83);
 }
 
 input::placeholder {
-  text-align: right;
-  
+  text-align: right;  
 }
+input[type="tel"]::placeholder {
+  text-align: left;
+  
 
+}
 textarea {
   background: rgba(255,255,255,0.1);
   border: none;
@@ -178,6 +183,13 @@ footer {
   form{
     margin:0px 4%;
   }
+  input#zip {
+    width: 50%;
+}
+#id, .zipcode {
+  display: grid;
+  grid-template-columns: 1;
+}
 }
 
   @media (min-width: 768px) {
@@ -190,7 +202,7 @@ footer {
     padding: 15px 25px;
     padding-left: 0;
     text-align: left;
-  }
+}
 
   input#zip {
     width: 38%;
