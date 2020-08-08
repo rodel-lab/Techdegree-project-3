@@ -98,11 +98,17 @@ select {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px; 
 }
+input:hover {
+  background-color: lightsteelblue;
+}
 
-
+input:focus {
+  background-color: lightsteelblue;
+}
 
 input::placeholder {
   text-align: right;
+  
 }
 
 textarea {
@@ -187,7 +193,7 @@ footer {
   }
 
   input#zip {
-    width: 30%;
+    width: 38%;
     margin-left: -13%;
 }
   fieldset {

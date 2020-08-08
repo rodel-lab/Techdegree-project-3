@@ -36,7 +36,7 @@
 
             <div class="contact-col">
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone">
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
             </div>
 
             <div class="contact-col">
@@ -107,7 +107,7 @@
                 </select>
             </div>
                 <div class="contact-col">
-                    <label class="zip-col">Zip Code</label>
+                    <label for="zipcode"  class="zipcode">Zip Code</label>
                     <input type="text" id="zip" name="user_zipcode">
                 </div>      
             </fieldset>
@@ -130,11 +130,13 @@
 
     <input type="radio" id="text_format" value="text_format" name="text_type">
     <label class="plain-text" for="text_format">Plain text</label><br>
-    
-    <span>Other topics you'd like to hear about</span><br><br>
-    <textarea name="about" id="topics"></textarea>
 
-        <button type="submit">Sign Up</button>
+    
+    <label class="about" for="topics">Other topics you'd like to hear about</label><br><br>
+    <textarea name="about" id="topics" placeholder="Enter topics you'd like to hear about...."></textarea>
+    
+        
+    <button type="submit">Sign Up</button>
 </fieldset>        
         <footer>Copyright The Review</footer>
     </form>
