@@ -105,7 +105,7 @@ input:hover {
 
 input:focus {
   background-color: whitesmoke;
-  border: solid rgb(235, 151, 83);
+  border: solid rgb(156, 127, 102);
 }
 
 input::placeholder {
@@ -151,7 +151,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #225b6b;
+  background-color: #3c7883;
 }
 
 input[type="radio"],
